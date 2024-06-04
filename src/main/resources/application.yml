@@ -1,0 +1,12 @@
+quarkus:
+  http:
+    port: 8080
+  datasource:
+    db-kind: postgresql
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/postgres
+      driver: org.postgresql.Driver
+      max-size: 8
+      min-size: 2
+    username: postgres
+    password: postgres
